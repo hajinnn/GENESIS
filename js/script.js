@@ -205,7 +205,7 @@ $(window).scroll(function(){
 
 
   if(sec5TopMargin <= sec5Bottom && sec5Bottom < sec5TopBottom) {
-    console.log('working scroll')
+    // console.log('working scroll')
     var plusPx = sec5Bottom - sec5Top + sec5FixedMargin;
     $('.sec5-the-awards-right-cont').css({
       marginTop: plusPx+'px'
@@ -258,7 +258,10 @@ $(".plus-btn .sec-btn").on("click", function () {
  });
 
 
-
+$('.footer-four .footer-language li').click(function(){
+  $(this).addClass('active');
+  $(this).siblings().removeClass('active');
+});
 
 
 

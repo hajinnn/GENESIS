@@ -405,6 +405,18 @@ header .header-wrap .logo img{
   font-size: 1.8rem;
   margin-bottom: 2rem;
 }
+.sec6 .sec6-wrap-head-txt{
+  margin-left: 30px;
+}
+.sec6 .sec6-wrap-head-txt h1{
+  font-size: 4rem;
+}
+.sec6 .sec6-wrap .sec-txt-wrap .sec-header{
+  font-size: 16px;
+}
+.sec6 .sec6-wrap .sec-txt-wrap p{
+  font-size: 12px;
+}
 /* sec7 */
 .sec7-wrap .sec7-gallery-inner{
   width: 100%;
@@ -542,5 +554,22 @@ header .header-wrap .logo img{
 .footer-three .footer-box li{
   margin: 10px 0;
 }
+
+.footer-four{
+  flex-direction: column;
+  align-items: center;
+}
+.footer-four .footer-box{
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+.footer-four .footer-language li{
+  display: inline-block;
+}
+.footer-five .web-mark{
+  display: none;
+}
+
+
 
 } /* end */

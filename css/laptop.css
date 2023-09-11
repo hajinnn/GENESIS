@@ -137,7 +137,17 @@
     padding: 24px 60px;
     font-size: 1.2rem;
   }
-
+  .footer-four{
+    padding: 24px 60px;
+    font-size: 1.2rem;
+  }
+  .footer-four .footer-box li a img{
+    width: 12px;
+    margin-right: 8px;
+  }
+  .footer-five .web-mark{
+    right: 60px;
+  }
 }
 
 /* 윈도우 크기가 1190px 이하 ~ 960 px 이상일때 -> 최대(max-width) 1199px    최소(min-width) 960px */
@@ -150,6 +160,9 @@
   }
   .sec8 .sec8-wrap .sec8-main-wrap .sec8-main .sec8-item-box .sec8-item .detail .title .sns-wrap .icon-sns p{
     font-size: 1.2rem;
+  }
+  .footer-four .footer-box{
+    width: 900px;
   }
 }
 /* 윈도우 크기가 1190px 이하 ~ 960 px 이상일때 -> 최대(max-width) 1199px    최소(min-width) 960px */
@@ -334,7 +347,7 @@
 
   /* sec9 */
   .sec9 .sec9-wrap .icon-link-wrap{
-    padding: 16rem 0;
+    padding: 12rem 0;
     max-width: 1000px;
   }
   .sec9 .sec9-wrap .icon-link-wrap .icon-link img{
@@ -359,10 +372,20 @@
 .footer-three .footer-sns-box{
   margin-top: 20px;
 }
-
-
-
-
+.footer-four{
+  flex-direction: column;
+  align-items: center;
+}
+.footer-four .footer-box{
+  margin-bottom: 20px;
+}
+.footer-four .footer-language li{
+  display: inline-block;
+}
+.footer-five .web-mark{
+  top: 30px;
+  width: 60px;
+}
 
 
 }

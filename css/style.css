@@ -730,7 +730,7 @@ button{
 
 .swiper-pagination-bullet{
     opacity: 0.8;
-    border: 1px solid #e3e3e3;
+    /* border: 1px solid #e3e3e3; */
     border-radius: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,3px));
     height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,4px));
     width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,20px));
@@ -1980,6 +1980,7 @@ html:not(.no-js) [data-aos=flip-right]{
 }
 .footer-two{
     background-color: #151515;
+    padding-bottom: 40px;
 }
 .footer-two .footer-two-wrap{
     padding: 60px 120px;
@@ -2024,15 +2025,15 @@ html:not(.no-js) [data-aos=flip-right]{
 .footer-three .footer-box li{
     display: inline-block;
     color: #bbbbbb;
-    padding: 0 16px;
+    padding: 0 20px 0 14px;
     border-right: 1px solid #464646;
 }
 .footer-three .footer-box li:first-child{
-    padding: 0 16px 0 0;
+    padding: 0 20px 0 0;
 }
 
 .footer-three .footer-box li:last-child{
-    padding: 0 0 0 16px;
+    padding: 0 0 0 14px;
     border-right: none;
 }
 .footer-three .footer-box .footer-txt a{
@@ -2061,4 +2062,64 @@ html:not(.no-js) [data-aos=flip-right]{
 }
 .footer-three .footer-sns-box .sns-box svg:hover{
     fill: #fff;
+}
+
+.footer-four{
+    background-color: #0f0f0f;
+    font-size: 1.4rem;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #1e1e1e;
+    text-align: center;
+}
+.footer-four .footer-box li{
+    display: inline-block;
+    color: #fff;
+    padding: 12px 0 12px 34px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.footer-four .footer-box li:first-child{
+    padding: 0;
+}
+.footer-four .footer-box li:hover{
+    opacity: 1;
+}
+.footer-four .footer-box li a{
+    display: flex;
+    align-items: center;
+}
+.footer-four .footer-box li a img{
+    width: 15px;
+    margin-right: 8px;
+}
+.footer-four .footer-language li{
+    color: #fff;
+    background-color: #1c1c1c;
+}
+.footer-four .footer-language li.active{
+    background-color: #fff;
+    color: #1c1c1c;
+}
+.footer-four .footer-language li a{
+    padding: 8px 20px;
+}
+.footer-five{
+    color: #bbbbbb;
+    text-align: center;
+    border-top: 1px solid #1e1e1e;
+    padding: 40px 120px;
+    position: relative;
+}
+.footer-five span{
+    font-size: 1.4rem;
+    
+}
+.footer-five .web-mark{
+    width: 80px;
+    position: absolute;
+    right: 120px;
+    top: 20px;
 }
