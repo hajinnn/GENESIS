@@ -1767,7 +1767,7 @@ html:not(.no-js) [data-aos=flip-right]{
     box-sizing: border-box;
     transition: 0.5s;
     color: #fff;
-    font-family: "GenesisSans Light KR";
+    font-family: "genesis-text", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
