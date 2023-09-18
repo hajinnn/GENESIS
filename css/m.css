@@ -582,6 +582,14 @@
   .sec8 .sec8-wrap .sec8-head-wrap .sec8-head h1{
     font-size: 3rem;
   }
+  .sec8 .sec8-wrap .sec8-head-wrap .sec8-bottom{
+    width: 96px;
+    justify-content: space-between;
+
+  }
+  .sec8 .sec8-wrap .sec8-head-wrap .sec8-bottom .instalogo-svg{
+    margin-right: 0;
+  }
   .sec8 .sec8-wrap .sec8-head-wrap .sec8-bottom .instalogo-svg svg{
     width: 16px;
     height: 16px;
